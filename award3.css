@@ -7,3 +7,7 @@ header{
     background-size: cover;
     position: relative;
 }
+
+.nav-menu {
+    padding: 0.5rem 0px;
+}

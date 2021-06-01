@@ -1,9 +1,13 @@
 header{
     height: 600px;
     width: 100vw;
-    background: url('img/volunteer.jpg');
+    background: url('img/agric.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.nav-menu {
+    padding: 0.5rem 0px;
 }
