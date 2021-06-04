@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
   />
     <title>Women Awards | Home</title>
@@ -26,7 +27,7 @@
                             <a href="about.html" class="nav-link">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Contact Us</a>
+                            <a href="#contact" class="nav-link">Contact Us</a>
                         </li>
                     </ul>
                     <div class="hamburger">
@@ -38,67 +39,81 @@
             </nav>
             <div id="header-info">
                 <div class="container header-info-content">
-                    <h1>African Women In Leadership</h1>
-                    <h2>2021</h2>
-                    <p>Empowering the next generation of women</p>
-                    <a href="#award-showcase" class="btn">View Awards</a>
+                    <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <h1>African Women In Leadership</h1>
+                                    <h2>2021</h2>
+                                    <p>Empowering the next generation of women</p>
+                                    <a href="#award-showcase" class="btn">View Awards</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <h1>Honouring The Most Visious Women</h1>
+                                    <p>Expanding The woman Power</p>
+                                    <a href="#award-showcase" class="btn">View Awards</a>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next" style="color: #f65772;"></div>
+                        <div class="swiper-button-prev " style="color: #f65772;"></div>
+                        <div class="swiper-pagination" style="color: #f65772;"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
     <section id="award-showcase">
         <div class="container award-showcase-content">
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <i class="fas fa-trophy"></i>
                 <h1>Women In Agriculture</h1>
                 <p>Awarded to women that have made vast strides In Agriculture</p>
                 <a href="award1.html">Read More</a>
                 <div class="line"></div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-down">
                 <i class="fas fa-award"></i>
                 <h1>The Technocrat Trophy</h1>
                 <p>Award to women who channels the use of technology</p>
                 <a href="award2.html">Read More</a>
                 <div class="line"></div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <i class="fas fa-medal"></i>
                 <h1>The Political Trophy</h1>
                 <p>Awarded to women playing significant roles in politics</p>
                 <a href="award3.html">Read More</a>
                 <div class="line"></div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-down">
                 <i class="fas fa-handshake"></i>
                 <h1>Healthcare Award</h1>
                 <p>Awarded to women who show significant promise in healthcare</p>
                 <a href="award4.html">Read More</a>
                 <div class="line"></div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <i class="fas fa-volleyball-ball"></i>
                 <h1>Sports Award</h1>
                 <p>Awarded to women in the sports industry</p>
                 <a href="award5.html">Read More</a>
                 <div class="line"></div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-down">
                 <i class="fas fa-university"></i>
                 <h1 style="text-align: center;">Educational Sector Award</h1>
                 <p>Women making impacts in the educational sector</p>
                 <a href="award6.html">Read More</a>
                 <div class="line"></div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <i class="fas fa-video"></i>
                 <h1 style="text-align: center;">Media Award</h1>
                 <p>Awarded to the most eloquent females in the media industry</p>
                 <a href="award7.html">Read More</a>
                 <div class="line"></div>
             </div>
-            <div class="card">
-                <i class="fas fa-handshake"></i>
+            <div class="card" data-aos="fade-down">
+                <i class="fas fa-business-time"></i>
                 <h1 style="text-align: center;">The Coporate Award</h1>
                 <p>Awarded to the most eloquent females in the coporate world</p>
                 <a href="award8.html">Read More</a>
@@ -107,34 +122,34 @@
         </div>
     </section>
     <section id="brief">
-        <div class="overlay">
-            <div class="container brief-content">
-                <p></p>
-                <h1>Brief Overlook Of Our Awards</h1>
-                <div class="main-line"></div>
-                <div id="brief-content-flex">
-                    <div id="image">
-                        <img src="img/img2.jpg"/>
-                    </div>
-                    <div id="brief-message">
-                        <div class="container">
-                            <h1>What We Look For</h1>
-                            <p>
-                                We look for once in a generation women who play significant strides in the world of politics, empowering younger generations,
-                                providing soical interventions and wielding the power of contributing to the world of technology. Our awards are merit based and competitors
-                                are thoroughly measured according to our award scale. On an overall scale we are focused on providing gratification to women that are uniquely impacting the society.
-                            </p>
-                            <a href="#events" class="btn">View Events</a>
-                        </div>
-                    </div>
-                </div>
+<div class="overlay">
+<div class="container brief-content">
+    <p></p>
+    <h1 data-aos="fade-up">Brief Overview Of Our Awards</h1>
+    <div class="main-line"></div>
+    <div id="brief-content-flex">
+        <div id="image" data-aos="fade-right">
+            <img src="img/img2.jpg"/>
+        </div>
+        <div id="brief-message" data-aos="fade-left">
+            <div class="container">
+                <h1>What We Look For</h1>
+                <p>
+                    We look for once in a generation women who play significant strides in the world of politics, empowering younger generations,
+                    providing soical interventions and wielding the power of contributing to the world of technology. Our awards are merit based and competitors
+                    are thoroughly measured according to our award scale. On an overall scale we are focused on providing gratification to women that are uniquely impacting the society.
+                </p>
+                <a href="#events" class="btn">View Events</a>
             </div>
         </div>
+    </div>
+</div>
+</div>
     </section>
     <section id="sponsors">
         <div class="container">
-            <h1>Our Sponsors</h1>
-            <div class="main-line"></div>
+            <h1 data-aos="fade-up">Our Sponsors</h1>
+            <div class="main-line" data-aos="fade-right"></div>
             <div class="swiper-container mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -163,7 +178,7 @@
         <h1 id="lead">Upcoming Events</h1>
         <div class="main-line"></div>
         <div class="container events-content">
-            <div class="box b1">
+            <div class="box b1" data-aos="flip-left">
                 <div class="overlay2 b1-msg">
                     <div class="box-img b1-im1"></div>
                     <div class="b-text">
@@ -173,7 +188,7 @@
                     </div>   
                 </div>
             </div>
-            <div class="box b2">
+            <div class="box b2" data-aos="flip-up">
                 <div class="overlay2 b2-msg">
                     <div class="box-img b1-im2"></div>
                     <div class="b-text">
@@ -183,7 +198,7 @@
                     </div>  
                 </div>
             </div>
-            <div class="box b3">
+            <div class="box b3" data-aos="flip-right">
                 <div class="overlay2 b3-msg">
                     <div class="box-img b1-im3"></div>
                     <div class="b-text">
@@ -258,6 +273,11 @@
     </footer>
 </body>
 <script src="https://kit.fontawesome.com/ea129587c4.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    AOS.init();
+  </script>
 <script src="main.js"></script>
 </html>
+

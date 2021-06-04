@@ -87,6 +87,9 @@ header{
 
 #header-info .header-info-content{
     height: 100%;
+}
+
+#header-info .header-info-content .swiper-slide{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,6 +192,11 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all ease-in-out 0.5s;
+}
+
+#award-showcase .award-showcase-content .card:hover{
+    transform: scale(1.1);
 }
 
 #award-showcase .award-showcase-content .card i{
@@ -587,8 +595,8 @@ footer .footer-content #nav-links a:hover{
         display: inline-block;
         text-align: center;
         width: 150px;
-        position: relative;
-        left: 90px;
+        /*position: relative;
+        left: 90px;*/
     }
 
     #header-info .header-info-content h1{
@@ -1007,7 +1015,7 @@ footer .footer-content #nav-links a:hover{
 }
 
 @media only screen and (max-width: 485px){
-    #header-info .header-info-content{
+    #header-info .header-info-content .swiper-slide{
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -1025,6 +1033,11 @@ footer .footer-content #nav-links a:hover{
         height: 300px;
         width: 350px;
     }
+
+    #header-info .header-info-content .btn{
+        position: relative;
+        left: 30%;
+     }
 }
 
 @media only screen and (max-width: 450px){
@@ -1052,7 +1065,7 @@ footer .footer-content #nav-links a:hover{
 
 
 @media only screen and (max-width: 400px){
-    #header-info .header-info-content{
+    #header-info .header-info-content .swiper-slide{
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -1127,6 +1140,11 @@ footer .footer-content #nav-links a:hover{
     #events .events-content .box .box-img{
         height: 290px;
         width: 290px;
+    }
+
+    #header-info .header-info-content .btn{
+       position: relative;
+       left: 30%;
     }
 }
 

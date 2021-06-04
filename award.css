@@ -28,6 +28,8 @@ p{
     line-height: 20px;
 }
 
+
+
 /*Utility*/
 .container{
     max-width: 85vw;
@@ -291,10 +293,11 @@ ul li i{
 @media only screen and (max-width: 770px) {
     #navbar{
         opacity: 1;
+        padding: 20px 0px;
     }
 
     #header-info .header-info-content .btn{
-        width:180px;
+        width:100px;
         align-self: center;
     }
 

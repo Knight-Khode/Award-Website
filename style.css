@@ -45,7 +45,8 @@ section{
 
 .pitch{
   width:500px;
-  line-height: 2.5em;
+  line-height: 2.3em;
+  text-align: inherit;
 }
 
 
@@ -74,8 +75,8 @@ section{
   width:500px;
 }
 .profile-pic{
-  width:550px;
-  height:350px;
+  width:570px;
+  height:370px;
 }
 img {
   max-width: 100%;
@@ -320,20 +321,24 @@ cursor: pointer;
 /* RESPONSIVENESS*/
 
 @media only screen and (max-width: 1024px) {
+
   .w50{
   display: none;
   }
+
+  
+
   .contentBx-w50{
     display: block;
     justify-content: center;
     margin:auto;
     align-self: center;
-    width:600px;
+    width:700px;
   }
 
   .pitch{
     text-align:center;
-    width:600px;
+    width:700px;
     
   }
 }
